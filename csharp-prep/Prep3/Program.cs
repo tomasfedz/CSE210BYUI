@@ -12,7 +12,11 @@ class Program
             int magicNumber = random.Next(1, 101);  // Random number between 1 and 100
             int numberOfGuesses = 0;  // Track the number of guesses made
 
+<<<<<<< HEAD
             Console.WriteLine("I'm thinking of a number between 1 and 100.");
+=======
+            Console.WriteLine("Guess what nuber I'm thinking between 1 and 100.");
+>>>>>>> 5a0fbc0a7870c60e05d1472dd3618b3187b8a80f
 
             int guess;  // Declare the variable to hold the player's guess
             do
@@ -30,6 +34,7 @@ class Program
                 // Compare the guess to the magic number and give feedback
                 if (guess < magicNumber)
                 {
+<<<<<<< HEAD
                     Console.WriteLine("Higher");  // Guess is too low
                 }
                 else if (guess > magicNumber)
@@ -42,6 +47,23 @@ class Program
                     Console.WriteLine($"It took you {numberOfGuesses} guesses.");  // Output the number of attempts
                 }
             } while (guess != magicNumber);  // Loop until the player guesses correctly
+=======
+                    Console.WriteLine("hmmm, higher");  // Guess is too low
+                }
+                else if (guess > magicNumber)
+                {
+                    Console.WriteLine("hmmm, lower");  // Guess is too high
+                }
+                else
+                {
+                    Console.WriteLine("Nice! You guessed it!");  // Correct guess
+                    Console.WriteLine($"It only took you {numberOfGuesses} guesses. Maybe next time you can do it in less");  // Output the number of attempts
+                }
+
+                // I wanted to add a loop to keep the player guessing until they get it right
+
+            } while (guess != magicNumber); 
+>>>>>>> 5a0fbc0a7870c60e05d1472dd3618b3187b8a80f
             
             // Ask if the player wants to play again
             Console.Write("\nWould you like to play again? (yes/no) ");
