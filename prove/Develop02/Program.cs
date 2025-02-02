@@ -1,4 +1,4 @@
-// Tomas Ferdandez CSE 210 
+// Tomas Fernandez CSE 210 
 // Unit 02 Develop: Journal Program
 
 using System;

@@ -22,7 +22,7 @@ namespace JournalingProgram
             Console.WriteLine("Write a new entry:");
             string prompt = GetRandomPrompt();
             Console.WriteLine(prompt);
-            Console.Write("Enter your response: ");
+            Console.Write("Your thoughts: ");
             string response = Console.ReadLine();
             Entry entry = new Entry(prompt, response, DateTime.Now.ToString("yyyy-MM-dd"));
             entries.Add(entry);
