@@ -1,3 +1,7 @@
+// Tomas Fernandez CSE 210 
+// Unit 03 Develop: Miundfulness Program
+// This program is a mindfulness application that allows users to select and run different mindfulness activities.
+
 using System;
 using System.Collections.Generic;
 using System.Threading;
